@@ -1,8 +1,11 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: kevin hormaza
+# DATE: October 6, 2025
+# BRIEF DESCRIPTION: this program asks the user if they would like a compliment.
+# if the user types exactly "yes", it gives a compliment.
+# otherwise, it prints "No compliment for you!".
+# in all cases, the user is thanked for playing.  
 
 
 
@@ -17,7 +20,14 @@
 
 
 
+answer = input("Would you like a compliment? ")
 
+if answer == "yes":
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+
+print("Thank you for playing.")
 
 
 
@@ -70,7 +80,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+This lab was straigthforward  because it built on the previous one.
 
 
 
